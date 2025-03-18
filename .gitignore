@@ -1,0 +1,265 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+#  else if(inch){
+#       // inch into yard
+#       var inch = parseInt();
+#       var yard= inch / 36;
+#       console.log(yard);
+#     } else if (inch){
+#       // yard into inch
+#       var yard = parseInt();
+#       var inch = yard * 36;
+#       console.log(yard);
+#     } else if (inch){
+#       // inch into light year
+#       var inch = parseInt();
+#       var lightYear= inch * 2.684782e-18;
+#       console.log(lightYear);
+#     } else if (inch){
+#       // light year into inch
+#       var lightYear= parseInt();
+#       var inch= lightYear /  2.684782e-18;
+#       console.log(inch);
+    
+#     } else if (inch){
+#       //inch into nautical miles
+#       var inch=parseInt();
+#       var nauticalMiles= inch * 1.37129e-5;
+#       console.log(nauticalMiles);
+#     } else if(inch){
+#       // nautical miles into inch
+#       var nauticalMiles=parseInt();
+#       var inch= nauticalMiles / 1.37129e-5;
+
+
+#   // const [data,setData]=useState(" ");
+#   // const [updataData,setUpdateData]=useState(" ");
+#   // function result(e){
+#   //   e.preventDefault();
+#   //   data.getItem(); 
+#   //   switch(data){
+#   //     case 1:
+#   //       // feet into meter
+#   //       var feet = parseInt();
+#   //       var meter= feet * 3.280839895;
+#   //       console.log(meter);
+#   //       break;
+#   //     case 2:
+#   //       // meter into feet
+#   //       var meter= parseInt();
+#   //       var feet= meter / 3.280839895;
+#   //       console.log(feet);
+#   //       break;
+#   //     case 3:
+#   //       //feet into miles
+#   //       var feet=parseInt();
+#   //       var miles= feet / 5280;
+#   //       console.log(miles);
+#   //       break;
+#   //     case 4:
+#   //       // miles into feet
+#   //       var miles=parseInt();
+#   //       var feet = miles * 5280;
+#   //       console.log(feet);
+#   //       break;
+#   //     case 5:
+#   //       //feet into inch
+#   //       var feet= parseInt();
+#   //       var inch = feet * 12;
+#   //       console.log(inch);
+#   //       break;
+#   //     case 6:
+#   //       // inch into feet
+#   //       var inch =parseInt();
+#   //       var feet= inch /12;
+#   //       console.log(feet);
+#   //       break;
+#   //     case 9:
+#   //       // feet into yard
+#   //       var feet = parseInt();
+#   //       var yard= feet / 3;
+#   //       console.log(yard);
+#   //       break;
+#   //     case 10:
+#   //       // yard into feet
+#   //       var yard= parseInt();
+#   //       var feet= yard * 3;
+#   //       console.log(feet);
+#   //       break;
+#   //     case 11:
+#   //       // lightyear into feet
+#   //       var lightYear= parseInt();
+#   //       var feet = lightYear / 3.2217385421073E-17;
+#   //       console.log(feet);
+#   //       break;
+#   //     case 12:
+#   //       // feet into lightyear
+#   //       var feet = parseInt();
+#   //       var lightYear= feet * 3.2217385421073E-17;
+#   //       console.log(lightYear);
+#   //       break;
+#   //     case 13:
+#   //       // feet into milimeter
+#   //       var feet = parseInst();
+#   //       var milimeter= feet * 304.8;
+#   //       console.log(milimeter);
+#   //       break;
+#   //     case 14:
+#   //       // milimiter into feet
+#   //       var milimeter=parseInt();
+#   //       var feet= milimeter / 304.8;
+#   //       console.log(feet);
+#   //       break;
+#   //     case 15:
+#   //       // feet into centimeters
+#   //       var feet=parseInt()
+#   //       var centimeter= feet * 30.48;
+#   //       console.log(centimeter);
+#   //       break;
+#   //     case 16:
+#   //       // centimeters into feet 
+#   //       var centimeter = parseInt();
+#   //       var feet = centimeter / 30.48;
+#   //       console.log(feet);
+#   //       break;
+#   //     case 17:
+#   //       // meter into cm
+#   //       var meter= parseInt();
+#   //       var centimeter= meter * 100
+#   //       console.log(centimeter);
+#   //       break;
+#   //     case 18:
+#   //       // centimeter into meter
+#   //       var centimeter = parseInt();
+#   //       var meter= centimeter / 100;
+#   //       console.log(meter);
+#   //       break;
+#   //     case 19:
+#   //       // meter into km
+#   //       var meter = parseInt();
+#   //       var Kilometer= meter * 0.001;
+#   //       console.log(Kilometer);
+#   //       break;
+#   //     case 20:
+#   //       // km into meter
+#   //       var Kilometer= parseInt();
+#   //       var meter = Kilometer / 0.001;
+#   //       console.log(meter);
+#   //       break;
+#   //     case 21:
+#   //       // miles into km 
+#   //       var miles=  parseInt();
+#   //       var Kilometer= miles * 1.60934;
+#   //       console.log(Kilometer);
+#   //       break;
+#   //     case 22:
+#   //       // km to miles
+#   //       var kilometer= parseInt();
+#   //       var miles= kilometer / 1.60934;
+#   //       console.log(miles);
+#   //       break;
+#   //     case 23:
+#   //       // miles into meters
+#   //       var miles = parseInt();
+#   //       var meters= miles * 1609.34;
+#   //       console.log(meters);
+#   //       break;
+#   //     case 24:
+#   //       // meters into miles 
+#   //       var meters= parseInt();
+#   //       var miles= meters / 1609.34;
+#   //       console.log(miles);
+#   //       break;
+#   //     case 26:
+#   //       // inch into milimeter
+#   //       var inch = parseInt();
+#   //       var milimeter= inch * 25.4;
+#   //       console.log(milimeter);
+#   //       break;
+#   //     case 27:
+#   //       // milimeter into inch
+#   //       var milimeter= parseInt();
+#   //       var inch= milimeter / 25.4;
+#   //       console.log(inch);
+#   //       break;
+#   //     case 28:
+#   //       // inch into cm
+#   //       var inch = parseInt();
+#   //       var centimeter= inch * 2.54;
+#   //       console.log(centimeter);
+#   //       break;
+#   //     case 29:
+#   //       // cm into inch
+#   //       var centimeter= parseInt();
+#   //       var inch= centimeter / 2.54;
+#   //       console.log(inch);
+#   //       break;
+#   //     case 30:
+#   //       // yeard into meters
+#   //       var yard= parseInt();
+#   //       var meters = yard * 0.9144;
+#   //       console.log(meters);
+#   //       break;
+#   //     case 31:
+#   //       // meters into yard 
+#   //       var meters= parseInt();
+#   //       var yard = meters / 0.9144;
+#   //       console.log(yard);
+#   //       break;
+#   //     case 32:
+#   //       // light year to astronimical units
+#   //       var lightYear= parseInt();
+#   //       var astronimical= lightYear / 1.58125e-5;
+#   //       console.log(astronimical);
+#   //       break;
+#   //     case 33:
+#   //       // astronimical units to light year
+#   //       var astronimical= parseInt();
+#   //       var lightYear= astronimical * 1.58125e-5;
+#   //       console.log(lightYear);
+#   //       break;
+#   //     case 34:
+#   //       // nautical miles to km 
+#   //       var nautical= parseInt();
+#   //       var kilometer= nautical * 1.852;
+#   //       console.log(kilometer);
+#   //       break;
+#   //     case 35:
+#   //       // km to nautical
+#   //       var kilometer= parseInt();
+#   //       var nautical = kilometer / 1.852;
+#   //       console.log(nautical);
+#   //       break;
+
+#   //   }
+#   // } 
+#   // function numberArea(e){
+#   //   setData(e.target.value);
+#   //   setUpdateData(e.target.value);
+   
+
+#   //   console.log(e.target.value);
